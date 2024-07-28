@@ -11,6 +11,16 @@ body {
     font-weight: 300;
 }
 
+::-moz-selection {
+    color: #eed2ff;
+    background: #b090c43a;
+}
+
+::selection {
+    color: #eed2ff;
+    background: #b090c43a
+}
+
 .header-1 {
     padding-top: 30px;
     height: 25vh;
@@ -43,7 +53,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 50px; /* Space between text-content and image */
+    gap: 50px;
+    /* Space between text-content and image */
 }
 
 
@@ -58,7 +69,7 @@ body {
 .container-tlpr img {
     max-width: 50%;
     height: 300px;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
 .container-pltr {
@@ -67,7 +78,8 @@ body {
 
 btn-nav {
     display: flex;
-    gap: 10px; /* Adjust the gap between buttons as needed */
+    gap: 10px;
+    /* Adjust the gap between buttons as needed */
 }
 
 h1,
