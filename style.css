@@ -116,6 +116,14 @@ h6 {
     color: transparent;
 }
 
+.gradient3 {
+    background-image: linear-gradient(200deg, #a64fd8, #ff9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
 
 .focus-in-expand {
     animation: focus-in-expand 1s cubic-bezier(.25, .46, .45, .94) both
