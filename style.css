@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -41,6 +45,34 @@ body {
     display: flex;
     flex-direction: column;
     border-top: 1px solid #b090c43a;
+    z-index: 100;
+    position: relative;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    display: flex;
+    gap: 10px; /* Space between the links */
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #c28ce0;
+    transition: 0.5s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #a64fd8;
+    transition: 0.5s;
 }
 
 .marg {
@@ -121,6 +153,48 @@ h6 {
     border-radius: 15px;
     border: 1px solid #b090c43a;
     transition: 1s;
+}
+
+.btn-secondary{
+    backdrop-filter: blur(2px) saturate(100%);
+    -webkit-backdrop-filter: blur(2px) saturate(100%);
+    color: #eed2ff;
+    background-color: #cb9de61e;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    border: 1px solid #b090c43a;
+    transition: 1s;
+    -webkit-box-shadow:0px 0px 94px 11px rgba(126,90,173,0.61);
+    -moz-box-shadow: 0px 0px 94px 11px rgba(126,90,173,0.61);
+    box-shadow: 0px 0px 94px 11px rgba(126,90,173,0.61);
+    z-index: 1;
+    position: relative;
+}
+
+.btn-secondary:hover {
+    backdrop-filter: blur(2px) saturate(100%);
+    -webkit-backdrop-filter: blur(2px) saturate(100%);
+    color: #eed2ff;
+    background-color: #cb9de64f;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    border: 1px solid #b090c43a;
+    transition: 1s;
+    -webkit-box-shadow:0px 0px 129px 15px rgba(126,90,173,0.61);
+-moz-box-shadow: 0px 0px 129px 15px rgba(126,90,173,0.61);
+box-shadow: 0px 0px 129px 15px rgba(126,90,173,0.61);
+z-index: 1;
+position: relative;
 }
 
 .gradient1 {
