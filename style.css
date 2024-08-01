@@ -80,6 +80,11 @@ body {
     max-width: 300px;
 }
 
+.marg2 {
+    text-align: center;
+    max-width: 450px;
+}
+
 .container-tlpr {
     display: flex;
     justify-content: center;
@@ -89,6 +94,18 @@ body {
     /* Space between text-content and image */
 }
 
+.mt1 {
+    font-weight: 1000 !important;
+    font-size: 40px !important;
+    vertical-align: middle;
+}
+
+.mt2 {
+    font-family: 'Material Symbols Rounded';
+    font-weight: 200 !important;
+    font-size: 18px !important;
+    vertical-align: middle;
+}
 
 .text-content {
     display: flex;
