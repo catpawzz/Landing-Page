@@ -16,6 +16,30 @@
 </head>
 
 <body class="starry-background">
+
+    <nav class="nav">
+        <div class="container">
+            <a class="gradient1-alt">Catpawz</a>
+            <ul class=".nav.active">
+                <li><a href="#cat-info">Info</a></li>
+                <li><a href="#cat-portfolio">Portfolio</a></li>
+                <li><a href="#cat-projects">Projects</a></li>
+                <li><a href="#cat-prices">Commission</a></li>
+            </ul>
+            <statuspage-widget class="statuspage-widget" src="https://hypercore-cloud.statuspage.io/"></statuspage-widget>
+            <a onclick="toggleDropdown()" class="nav-item current mobile-show"><span class="material-symbols-outlined">
+                    menu_open
+                </span></a>
+    
+            <div id="dropdown" class="dropdown-content">
+                <a href="/" class="current">Home</a>
+                <a href="/configurator">Configurator</a>
+                <a href="/packages">Packages</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+    </nav>    
+
     <div class="header-1">
         <h1 class="focus-in-expand">Unleashing <a class="gradient1">Creativity <span class="material-symbols-rounded mt1">code</span></a> Through Code</h1>
         <p class="focus-in-secondary text2">Hello, I'm Catpawz. With four years of experience, I specialize in creating efficient HTML, CSS, and JavaScript websites. I am passionate about web and app development.</p>
@@ -75,12 +99,51 @@
             <p style="max-width: 300px;">Just a smol furry femboi dev trying to make code and to get popular (I'm probably never going to be :<)</p>
         </div>
         <div class="footer-right">
-            <a class="footer-link" href="/privacy">PRIVACY</a>
-            <a class="footer-link" href="/links">LINKS</a>
-            <a class="footer-link" href="https://network-status.catpawz.eu">STATUS</a>
-            <a class="footer-link" href="https://cloud.catpawz.eu">CLOUD</a>
+            <a class="footer-link" href="/privacy">PRIVACY <span class="mt2 material-symbols-rounded">assured_workload</span></a>
+            <a class="footer-link" href="/links">LINKS <span class="mt2 material-symbols-rounded">list</span></a>
+            <a class="footer-link" href="https://network-status.catpawz.eu">STATUS <span class="mt2 material-symbols-rounded">monitoring</span></a>
+            <a class="footer-link" href="https://cloud.catpawz.eu">CLOUD <span class="mt2 material-symbols-rounded">cloud</span></a>
+            <a class="footer-link" href="#">TOP <span class="mt2 material-symbols-rounded">arrow_drop_up</span></a>
         </div>
     </div>
+
+    <script>
+        const nav = document.querySelector('.nav');
+window.addEventListener('scroll', fixNav);
+
+function fixNav() {
+  if (window.scrollY > nav.offsetHeight + 10) {
+    nav.classList.add('active');
+  } else {
+    nav.classList.remove('active');
+  }
+}
+
+var item = document.getElementsByClassName('item');
+
+for (let i = 0; i < item.length; i++) {
+  item[i].addEventListener('click', function(el) {
+    
+    el.currentTarget.classList.toggle('item--open');
+    
+    for (let i = 0; i < item.length; i++) {
+      if (item[i] !== el.currentTarget && item[i].className === "item item--open") {
+        item[i].classList.remove('item--open');
+      }
+    }
+  });
+};
+
+  function toggleDropdown() {
+    var dropdown = document.getElementById("dropdown");
+    if (dropdown.style.display === "block") {
+        dropdown.style.display = "none";
+    } else {
+        dropdown.style.display = "block";
+    }
+}
+
+    </script>
     
 </body>
 

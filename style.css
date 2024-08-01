@@ -26,7 +26,7 @@ body {
 }
 
 .header-1 {
-    padding-top: 30px;
+    padding-top: 60px;
     height: 25vh;
     background-color: #cb9de600;
     align-items: center;
@@ -56,7 +56,7 @@ body {
 
 .footer-right {
     display: flex;
-    gap: 10px; /* Space between the links */
+    gap: 25px; /* Space between the links */
 }
 
 .footer a {
@@ -215,10 +215,17 @@ position: relative;
 }
 
 .gradient1 {
-    background-image: linear-gradient(165deg, #ff9900, #a64fd8);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(165deg, #ff9900, #a64fd8) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+}
+
+.gradient1-alt {
+    background-image: linear-gradient(165deg, #f3b8ff, #b02dfc) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
 }
 
 .gradient2 {
@@ -289,3 +296,115 @@ position: relative;
         opacity: 1
     }
 }
+
+
+.nav {
+    position: fixed;
+    background-color: #13131500;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    display: flex;
+    height: 70px;
+  }
+  
+  .nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .visDesktop {
+      display: none;
+    }
+  
+    .nav ul {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 821px) {
+    .visMobile {
+      display: block;
+    }
+  
+    .nav ul {
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .nav-item.mobile-show {
+      display: none;
+      /* Hide the "NAV" link on screens wider than 820px */
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      display: block;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: #333;
+    }
+  
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  }
+  
+  /* Hide the widget on screens 820px or smaller */
+  @media screen and (max-width: 820px) {
+    .statuspage-widget {
+      display: none;
+    }
+  
+    .dropdown-content {
+      display: none;
+    }
+  
+    .nav-item-mobile {
+      display: block;
+      /* Show the "NAV" link */
+    }
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav.active {
+    background-color: #4c325c9a;
+    box-shadow: 0 2px 10px rgba(226, 132, 255, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    display: flex;
+    height: 50px;
+  }
+  
+  .nav.active .container {
+    padding: 10px 0;
+  }
+  
+  .nav a.current,
+  .nav a:hover {
+    color: #b062dd;
+    font-weight: bold;
+  }
+  
+  
