@@ -18,7 +18,7 @@ We use [GIT](https://git-scm.com/) for versioning and code review.
 ## Authors & Contributors
 
   - **Catpawz** - *Working on the code* - [Porfolio](https://catpawz.eu)
-  - **Taro** - *Fursona icons* - [Etsy]()
+  - **Taro** - *Fursona icons* - [Etsy](https://www.etsy.com/shop/taroxart?ref=catpawz)
   - **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
