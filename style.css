@@ -9,11 +9,18 @@ body {
     margin: 0px;
     background-color: #100914;
     background-image: url(assets/stars.png);
-    background-size: 30%;
+    background-size: 20%;
     font-family: "Archivo black", monospace;
     color: #eed2ff;
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: 100% !important;
+  }
+}
+
 
 ::-moz-selection {
     color: #eed2ff;
