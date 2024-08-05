@@ -41,6 +41,7 @@ body {
 @media (max-width: 768px) {
   .header-1 {
     padding: 20px;
+    padding-top: 60px;
     height: 40vh;
   }
 
