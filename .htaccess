@@ -1,42 +1,17 @@
-# Enable rewriting
 RewriteEngine On
 
-# Remove .php extension
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .html extension  
+# Remove .html file extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1 [L]
+RewriteRule ^(.*)$ $1.html [L]
 
-# Remove .htm extension
-RewriteCond %{REQUEST_FILENAME}\.htm -f 
-RewriteRule ^(.*)$ $1 [L]
+# Remove .php file extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
 
-# Remove .shtml extension
-RewriteCond %{REQUEST_FILENAME}\.shtml -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .jsp extension
-RewriteCond %{REQUEST_FILENAME}\.jsp -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .asp extension 
-RewriteCond %{REQUEST_FILENAME}\.asp -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .aspx extension
-RewriteCond %{REQUEST_FILENAME}\.aspx -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .cfm extension
-RewriteCond %{REQUEST_FILENAME}\.cfm -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .cgi extension
-RewriteCond %{REQUEST_FILENAME}\.cgi -f
-RewriteRule ^(.*)$ $1 [L]
-
-# Remove .pl extension
-RewriteCond %{REQUEST_FILENAME}\.pl -f
-RewriteRule ^(.*)$ $1 [L]
+# Redirect requests without the file extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ $1.php [L]
+RewriteRule ^([^/]+)$ $1.php [L]
