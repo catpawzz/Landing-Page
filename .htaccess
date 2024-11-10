@@ -1,4 +1,19 @@
-RewriteEngine on
+# Enable URL rewriting
+RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+# Specify the base directory (if your site is in a subdirectory)
+# Uncomment and modify the following line if needed
+# RewriteBase /subdirectory/
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
+
+# Optional: Redirect users from URLs with .php to the pretty version
+RewriteCond %{THE_REQUEST} \s(.+?)\.php[\s?]
+RewriteRule ^ %1 [R=301,L]
+
+# Fallback for any other requests that don't match a rule
+# Uncomment the following line if you want to handle 404 errors in a custom way
+ErrorDocument 404 /404.php
