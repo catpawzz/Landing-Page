@@ -69,7 +69,7 @@
             </span>
           </div>
           <h3 class="mt-4 text-lg font-medium text-white">Information</h3>
-          <p class="mt-2 text-base text-gray-300">Discover guides to help you code, create, and conquer challenges. Our guides cover various topics to ensure your success.</p>
+          <p class="mt-2 text-base text-gray-300">Welcome to my information page! Here you'll find everything to know when interacting with me :), I would be soo thankful if you took your time to read through this!</p>
           <a href="/information" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
             Open
           </a>
@@ -81,7 +81,7 @@
             </span>
           </div>
           <h3 class="mt-4 text-lg font-medium text-white">Portfolio</h3>
-          <p class="mt-2 text-base text-gray-300">Access a wealth of knowledge bases to deepen your understanding of various technologies and concepts.</p>
+          <p class="mt-2 text-base text-gray-300">Welcome to my portfolio! On here you'll find everything about the experience I'v accummulated over the years, including work, hobbies, school and even more :")</p>
           <a href="/portfolio" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
             Open
           </a>
@@ -93,7 +93,7 @@
             </span>
           </div>
           <h3 class="mt-4 text-lg font-medium text-white">Projects</h3>
-          <p class="mt-2 text-base text-gray-300">Enroll in our comprehensive courses to conquer new challenges and elevate your coding skills.</p>
+          <p class="mt-2 text-base text-gray-300">I've coded on wayy to much stuff... here you can see everything...</p>
           <a href="/projects" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
             Open
           </a>
