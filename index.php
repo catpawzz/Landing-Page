@@ -131,6 +131,37 @@
     </div>
   </section>
 
+  <section class="bg-gray-900 py-16 animate-fade animate-delay-[500ms]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-white">Ways to contact me!</h2>
+      <p class="mt-2 text-lg text-gray-300">Discover various ways to get in touch with me, whether it's through social media, email, or other platforms. I'm always excited to connect!</p>
+      <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2">
+        <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
+          <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 shadow-purple">
+            <span class="material-symbols-outlined text-white">
+              chat
+            </span>
+          </div>
+          <h3 class="mt-4 text-lg font-medium text-white">Telegram</h3>
+          <a href="https://t.me/french_femboi" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+            Open
+          </a>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-lg shadow-lg">
+          <div class="flex items-center justify-center h-12 w-12 rounded-md bg-purple-600 shadow-purple">
+            <span class="material-symbols-outlined text-white">
+              chat
+            </span>
+          </div>
+          <h3 class="mt-4 text-lg font-medium text-white">Discord</h3>
+          <a href="https://discord.com/users/852891077097947156" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
+            Open
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <?php include 'inc/footer.php'; ?>
 </body>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
