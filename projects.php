@@ -106,9 +106,9 @@
               <span class="inline-block py-1 px-2 rounded-full text-xs font-semibold text-green-200 bg-green-900">Website</span>
             </td>
             <td class="py-3 px-4 border-b border-gray-700 text-gray-300">
-              <a href="https://info.french-femboi.eu" target="_blank" class="text-purple-300 hover:text-purple-100">INFO</a> -
-              <a href="https://projects.french-femboi.eu" target="_blank" class="text-purple-300 hover:text-purple-100">PROJECTS</a> -
-              <a href="https://portfolio.french-femboi.eu" target="_blank" class="text-purple-300 hover:text-purple-100">PORTFOLIO</a>
+              <a href="https://catpawz.net/information" target="_blank" class="text-purple-300 hover:text-purple-100">INFO</a> -
+              <a href="https://catpawz.net/projects" target="_blank" class="text-purple-300 hover:text-purple-100">PROJECTS</a> -
+              <a href="https://catpawz.net/portfolio" target="_blank" class="text-purple-300 hover:text-purple-100">PORTFOLIO</a>
             </td>
           </tr>
           <tr>
@@ -118,7 +118,7 @@
               <span class="inline-block py-1 px-2 rounded-full text-xs font-semibold text-green-200 bg-green-900">Website</span>
             </td>
             <td class="py-3 px-4 border-b border-gray-700 text-gray-300">
-              <a href="https://apps.french-femboi.eu" target="_blank" class="text-purple-300 hover:text-purple-100">LINK</a>
+              <a href="https://apps.catpawz.net" target="_blank" class="text-purple-300 hover:text-purple-100">LINK</a>
             </td>
           </tr>
           <tr>
@@ -160,6 +160,16 @@
             </td>
             <td class="py-3 px-4 border-b border-gray-700 text-gray-300">
               <a href="https://mcmilford.eu" target="_blank" class="text-purple-300 hover:text-purple-100">WEBSITE</a>
+            </td>
+          </tr>
+          <tr>
+            <td class="py-3 px-4 border-b border-gray-700 text-gray-300">Astroid</td>
+            <td class="py-3 px-4 border-b border-gray-700 text-gray-300">Astroid enables seamless integration of Discord, Guilded, Nerimity, and Revolt servers. </td>
+            <td class="py-3 px-4 border-b border-gray-700">
+              <span class="inline-block py-1 px-2 rounded-full text-xs font-semibold text-green-200 bg-green-900">Project</span>
+            </td>
+            <td class="py-3 px-4 border-b border-gray-700 text-gray-300">
+              <a href="https://astroid.cc" target="_blank" class="text-purple-300 hover:text-purple-100">WEBSITE</a>
             </td>
           </tr>
         </tbody>
