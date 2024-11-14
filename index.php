@@ -24,7 +24,7 @@
 
   <div class="relative isolate overflow-hidden bg-gray-900">
     <div class="absolute inset-0 -z-20 h-full w-full animate-fade animate-duration-[3000ms]">
-      <img src="/src/assets/img/femboi-2.JPG" alt="Background Image" class="h-full w-full object-cover opacity-30 ">
+      <img src="/src/assets/img/femboi-2.jpg" alt="Background Image" class="h-full w-full object-cover opacity-30 ">
       <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-gray-900 to-transparent"></div>
     </div>
     <svg class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)] animate-fade-down" aria-hidden="true">
