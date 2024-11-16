@@ -86,7 +86,7 @@
       </div>
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <h3 class="text-xl font-bold text-white mb-2">Relationship status</h3>
-        <p class="text-gray-400">I'm lonely again :<</p>
+        <p class="text-gray-400">I'm lonely again :< (and apparently I'm destined to be)</p>
       </div>
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <h3 class="text-xl font-bold text-white mb-2">What people actually call me</h3>
