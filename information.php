@@ -90,7 +90,7 @@
       </div>
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <h3 class="text-xl font-bold text-white mb-2">What people actually call me</h3>
-        <p class="text-gray-400">Smol cute furry femboy dev boi or french femboy</p>
+        <p class="text-gray-400">Smol cute femboy dev cat</p>
       </div>
       <div class="bg-gray-800 rounded-lg shadow-lg p-6">
         <h3 class="text-xl font-bold text-white mb-2">Pronouns</h3>
