@@ -321,7 +321,7 @@
       </table>
     </div>
     <h2 class="text-1xl font-bold text-gray-200 mt-6 mb-6">If you wanna contact me, check out the links in the footer :)</h2>
-    <h2 class="text-1xl font-bold text-gray-200 mt-6 mb-6">Can't believe you actually read through this masterpiece, thank you sooo much</h2>
+    <h2 class="text-1xl font-bold text-gray-200 mt-6 mb-6">Can't believe you actually read through this masterpiece, thank you sooo much and btw, when I say masterpiece I certainly do not mean it especially considering that this is almost just a document about me and my insecurities... If you know me IRL, you do know that this is real.</h2>
   </div>
 
   <?php include 'inc/footer.php'; ?>

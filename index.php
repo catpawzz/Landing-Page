@@ -49,7 +49,7 @@
           </a>
         </div>
         <h1 class="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">Unleashing Creativity Through Code!</h1>
-        <p class="mt-6 text-lg leading-8 text-gray-300">Hello, I'm Catpawz. With four years of experience, I specialize in creating efficient HTML, CSS, and JavaScript websites. I am passionate about web and app development.</p>
+        <p class="mt-6 text-lg leading-8 text-gray-300">Hello, I'm Catpawz. With more than four years of experience, I specialize in creating efficient HTML, CSS, and JavaScript websites. I am passionate about web and app development.</p>
         <div class="mt-10 flex items-center gap-x-6">
           <span class="text-sm font-semibold leading-6 text-white">Scroll down <span aria-hidden="true">↓</span></span>
         </div>
@@ -81,7 +81,7 @@
             </span>
           </div>
           <h3 class="mt-4 text-lg font-medium text-white">Portfolio</h3>
-          <p class="mt-2 text-base text-gray-300">Welcome to my portfolio! On here you'll find everything about the experience I'v accummulated over the years, including work, hobbies, school and even more :")</p>
+          <p class="mt-2 text-base text-gray-300">Welcome to my portfolio! On here you'll find everything about the experience I've accummulated over the years, including work, hobbies, school and even more :")</p>
           <a href="/portfolio" class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500">
             Open
           </a>
