@@ -56,7 +56,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-5">
             <div class="card bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-bold text-white">Fembois (mastodon)</h2>
-                <a href="https://social.fembois.eu/@french_femboi" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
+                <a href="https://cat-space.net/@catpawzz" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
             </div>
             <div class="card bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-bold text-white">Instagram</h2>
@@ -72,7 +72,7 @@
             </div>
             <div class="card bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 class="text-2xl font-bold text-white">Telegram</h2>
-                <a href="https://t.me/french_femboi" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
+                <a href="https://t.me/catpawzzz" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
             </div>
         </div>
 
@@ -90,7 +90,7 @@
     </div>
     <div class="card bg-gray-800 p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-bold text-white">GitHub</h2>
-        <a href="https://github.com/french-femboi" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
+        <a href="https://github.com/catpawzz" target="_blank" class="mt-4 inline-flex items-center gap-x-2 bg-purple-900 text-purple-300 px-4 py-2 rounded-md shadow-sm hover:bg-purple-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-400">Open</a>
     </div>
     <div class="card bg-gray-800 p-6 rounded-lg shadow-md">
         <h2 class="text-2xl font-bold text-white">Activity</h2>
